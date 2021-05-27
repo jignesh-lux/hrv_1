@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Jignesh/HR Automation/HR V1">
+        <classes>
+            <class name="com.hrv1.qa.test.login.LoginPageTest">
+                <methods>
+                    <include name="negativeLoginTest"/>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="com.hrv1.qa.test.master.MasterCompanyPageTest">
+                <methods>
+                    <include name="addCompanyTest"/>
+                </methods>
+            </class>
+            <class name="com.hrv1.qa.test.master.MasterCompanygit EditPageTest">
+                <methods>
+                    <include name="editMasterCompanyTest"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
